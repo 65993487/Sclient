@@ -41,4 +41,4 @@ REDIS_HOST = os.environ.get("REDIS_HOST", default="127.0.0.1:6379")
 REDIS_PASSWORD = os.environ.get("REDIS_PASSWORD", default="")
 
 # 该扫描节点的名称(自定义)
-NODE_NAME = "w12_node_{0}".format(os.environ.get("NODE_NAME", "Scanner_"+str(time.strftime('%Y-%m-%d %H%:%M',time.localtime(time.time())))))
+NODE_NAME = "w12_node_{0}".format(os.environ.get("NODE_NAME", "Scanner_"+str(time.strftime('%Y-%m-%d %H:%M',time.localtime(time.time())))))
