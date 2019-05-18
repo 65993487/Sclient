@@ -1,6 +1,7 @@
 docker-compose.yml
 1、修改WEB_INTERFACE
 2、REDIS_HOST
+3、修改image
 
 config.py
 1、修改MASSCAN_FULL_SCAN
