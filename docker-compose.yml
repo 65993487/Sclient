@@ -1,0 +1,8 @@
+version: '3'
+services:
+  client:
+    image: boyhack/w12scan-client:latest
+    environment:
+      WEB_INTERFACE: http://web:8000
+      REDIS_HOST: redis:6379
+      REDIS_PASSWORD: whoami
