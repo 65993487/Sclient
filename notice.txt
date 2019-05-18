@@ -5,3 +5,6 @@ docker-compose.yml
 
 config.py
 1、修改MASSCAN_FULL_SCAN
+
+
+yum install docker -y && yum install docker-compose -y && yum install git -y && git clone https://github.com/65993487/Sclient.git &&  cd Sclient && service docker start  && docker build -t client:latest . && docker-compose up -d && rm -rf ../Sclient/
