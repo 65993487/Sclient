@@ -1,7 +1,7 @@
 version: '3'
 services:
   client:
-    image: boyhack/w12scan-client:latest
+    image: client:latest
     environment:
       WEB_INTERFACE: http://108.160.143.161:8000
       REDIS_HOST: 108.160.143.161:6379
