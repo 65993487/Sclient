@@ -3,6 +3,6 @@ services:
   client:
     image: boyhack/w12scan-client:latest
     environment:
-      WEB_INTERFACE: http://web:8000
-      REDIS_HOST: redis:6379
-      REDIS_PASSWORD: whoami
+      WEB_INTERFACE: http://108.160.143.161:8000
+      REDIS_HOST: 108.160.143.161:6379
+      REDIS_PASSWORD: hellow12scan
