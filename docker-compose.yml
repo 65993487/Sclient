@@ -3,6 +3,6 @@ services:
   client:
     image: client:latest
     environment:
-      WEB_INTERFACE: http://108.160.143.161:8000
-      REDIS_HOST: 108.160.143.161:6379
-      REDIS_PASSWORD: hellow12scan
+      WEB_INTERFACE: http://[]:8000
+      REDIS_HOST: []:6379
+      REDIS_PASSWORD: []
